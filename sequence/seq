@@ -1,0 +1,24 @@
+# python中的序列
+
+# 容器序列、扁平序列、可变序列、不可以变序列
+# 容器序列中的元素类型可不一致，扁平序列中的元素类似必须一致
+# 可变序列中的元素可以__delitem__、__setitem__、insert、remove
+# 不可变序列中的序列内容和大小均不可修改，只能__getitem__
+
+# 列表推导，可读性，易实现。
+# 生成器表达式，用以生成其它序列类型。
+
+# 不可变序列中的序列内容和大小均不可修改，只能__getitem__
+# 不可变序列中的序列内容和大小均不可修改，只能__getitem__
+# 不可变序列中的序列内容和大小均不可修改，只能__getitem__
+#   IdentityFile ~/.ssh/id_rsa
+#   IdentityFile ~/.ssh/id_dsa
+#   IdentityFile ~/.ssh/id_ecdsa
+#   IdentityFile ~/.ssh/id_ed25519
+#   Port 22
+#   Protocol 2
+#   Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+#   EscapeChar ~
+#   2020-01-19
+#   于郑州中业科技
