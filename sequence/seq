@@ -5,21 +5,17 @@
 # 可变序列中的元素可以__delitem__、__setitem__、insert、remove
 # 不可变序列中的序列内容和大小均不可修改，只能__getitem__
 
-# 列表推导，可读性，易实现。
+# 列表推导，可读性，易用性。
 # 生成器表达式，用以生成其它序列类型。
 
 # 元组，不可变，用作记录，位置信息代表记录的字段，隐式的记录
 # 元组拆包。拆包可以应用到任何可迭代对象中。
+# * 运算符，可以用以拆包，可以用作接收拆包后数据
 # 拆包提高了可读性以及易用性提高，不知道是否还有其它应用。
-# start:嵌套拆包。
-#   IdentityFile ~/.ssh/id_rsa
-#   IdentityFile ~/.ssh/id_dsa
-#   IdentityFile ~/.ssh/id_ecdsa
-#   IdentityFile ~/.ssh/id_ed25519
-#   Port 22
-#   Protocol 2
-#   Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
-#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
-#   EscapeChar ~
+# 元组支持嵌套即拆包也支持，list中存储元组，可以用拆包来具名元组元素
+# 具名元组，显示的collections.namedtuple 2.3.4
+# 元组当做不可变列表与列表存在的差异：不可删、插入、修改
+# 
+# start 切片
 #   2020-01-19
 #   于郑州大学科技园
